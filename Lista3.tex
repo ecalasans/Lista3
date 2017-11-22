@@ -1,0 +1,145 @@
+\documentclass[fleqn]{beamer}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage[]{graphicx}
+\usepackage[]{color}
+\usepackage{pgfplots}
+\usetheme{Berkeley}
+
+\pgfplotsset{compat=1.5}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+	\section{Questão 1}
+	\section{Questão 2}
+	\section{Questão 3}
+	\section{Questão 4}
+	\section{Questão 5}
+	\section{Questão 6}
+		\begin{frame}{Questão 6}
+			a)  Sejam $\overline{\overline X} = 34.32$ e $\overline{\overline R} = 5.65$.\\
+			Para amostras de tamanho \textbf{5}, $A_{2} = 0.577$.
+			Limites para $\overline{X}$ são:
+			$$\overline{X} \pm A_{2}\sigma = 34.32 \pm (0.577)(5.65) = 34.32 \pm 3.26$$
+			ou
+			$$LSC = 37.58\hspace{1cm}LIC = 31.06$$
+			Para o gráfico \textbf{R}, os limites de controle são:
+			$$LSC = D_{4}\overline{R} = (2.115)(5.65) = 11.95$$
+			$$LIC = D_{3}\overline{R} = 0,$$
+			sendo $D_{4}$ e $D_{3}$ tabelados.
+		\end{frame}
+		\begin{frame}{Questão 6}
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[
+					title=Gráfico para $\overline{X}$,
+					xlabel={Amostra},
+					ylabel={$\overline X$},
+					xtick align=outside,
+					ytick align=outside,
+					xtick pos=left,
+					ytick pos=left,
+					minor x tick num=4,
+					minor y tick num=5,
+					xmin=0
+					]
+					\addplot table[col sep=semicolon] {q6X.csv};
+				\end{axis}
+			\end{tikzpicture}
+		\end{frame}
+		\begin{frame}{Questão 6}
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[
+				title=Gráfico para $R$,
+				xlabel={Amostra},
+				ylabel={R},
+				xtick align=outside,
+				ytick align=outside,
+				xtick pos=left,
+				ytick pos=left,
+				xmin=0
+				]
+				\addplot [red, mark=*] table[col sep=semicolon] {q6R.csv};
+				\end{axis}
+			\end{tikzpicture}
+		\end{frame}
+		\begin{frame}{Questão 6}
+			b)  $RCP = \frac{LSE - LIE}{6\delta}$, onde:$$\delta = \frac{r}{d_{2}(tabelado)} = \frac{5}{2\times32.6} = 0.000215$$\\
+			$RCP = \frac{0.5045 - 0.5025}{6(0.000215)} = 1.55$\\
+			
+			$P_{1} = \big(\frac{1}{C_{o}}\big)\times100 = 64.51$
+		\end{frame}
+	\section{Questão 7}
+	\section{Questão 8}
+		\begin{frame}{Questão 8}
+			a)  Sejam $TMF = 0.002$, $t = 1000h$ e $r(t) = \exp(-\lambda t)$.
+			$$r(1000) = \exp(-0.002\times1000) = 0.135$$
+			Assim:
+			\begin{align*}
+				R(t) &= \sum_{l = k}^{n} \binom{n}{k} [r(t)] ^{l} [1-r(t)] ^{n-l}\\
+					&= \sum_{l = 2}^{5} \binom{5}{2} [0.135] ^{2} [1-0.135] ^{5-2}\\
+				R(t) &=  0.417
+			\end{align*}
+		\end{frame}
+		\begin{frame}{Questão 8}
+			b)\begin{align*}
+					R(t) &= 1 - [1 - \exp(-\lambda t)]^{n}\\
+						&= 1 - [1 - \exp(-0.002\times1000)]^{5}\\
+					R(t) &= 0.516
+			\end{align*}
+		\end{frame}
+	\section{Questão 9}
+
+\end{document}

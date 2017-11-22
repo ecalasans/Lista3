@@ -1,0 +1,38 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage[]{graphicx}
+\usepackage[]{color}
+\usetheme{Berkeley}
+
+\begin{document}
+	\section{Questão 1}
+	\section{Questão 2}
+	\section{Questão 3}
+	\section{Questão 4}
+	\section{Questão 5}
+		\begin{frame}{Questão 5}
+			content...
+		\end{frame}	
+	\section{Questão 6}
+		\begin{frame}{Questão 6}
+			Sejam $\overline{\overline X} = 34.32$ e $\overline{\overline R} = 5.65$.\\
+			Para amostras de tamanho \textbf{5}, $A_{2} = 0.577$.
+			Limites para $\overline{X}$ são:
+			$$\overline{X} \pm A_{2}\sigma = 34.32 \pm (0.577)(5.65) = 34.32 \pm 3.26$$
+			ou
+			$$LSC = 37.58\hspace{1cm}LIC = 31.06$$
+			Para o gráfico \textbf{R}, os limites de controle são:
+			$$LSC = D_{4}\overline{R} = (2.115)(5.65) = 11.95$$
+			$$LIC = D_{3}\overline{R} = 0$$,
+			sendo $D_{4}$ e $D_{3}$ tabelados.
+		\end{frame}
+		\begin{frame}{Questão 6}
+		\end{frame}
+	\section{Questão 7}
+	\section{Questão 8}
+	\section{Questão 9}
+
+\end{document}
