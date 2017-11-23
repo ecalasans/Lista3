@@ -1,41 +1,59 @@
-\headcommand {\sectionentry {1}{Quest\IeC {\~a}o 1}{1}{Quest\IeC {\~a}o 1}{0}}
-\headcommand {\beamer@sectionpages {1}{0}}
-\headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\sectionentry {2}{Quest\IeC {\~a}o 2}{1}{Quest\IeC {\~a}o 2}{0}}
-\headcommand {\beamer@sectionpages {1}{0}}
-\headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\sectionentry {3}{Quest\IeC {\~a}o 3}{1}{Quest\IeC {\~a}o 3}{0}}
-\headcommand {\beamer@sectionpages {1}{0}}
-\headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\sectionentry {4}{Quest\IeC {\~a}o 4}{1}{Quest\IeC {\~a}o 4}{0}}
-\headcommand {\beamer@sectionpages {1}{0}}
-\headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\sectionentry {5}{Quest\IeC {\~a}o 5}{1}{Quest\IeC {\~a}o 5}{0}}
-\headcommand {\beamer@sectionpages {1}{0}}
-\headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\sectionentry {6}{Quest\IeC {\~a}o 6}{1}{Quest\IeC {\~a}o 6}{0}}
-\headcommand {\beamer@sectionpages {1}{0}}
-\headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\slideentry {6}{0}{1}{1/1}{}{0}}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
-\headcommand {\slideentry {6}{0}{2}{2/2}{}{0}}
+\headcommand {\sectionentry {1}{Quest\IeC {\~a}o 1}{2}{Quest\IeC {\~a}o 1}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\sectionentry {2}{Quest\IeC {\~a}o 2}{2}{Quest\IeC {\~a}o 2}{0}}
+\headcommand {\beamer@sectionpages {2}{1}}
+\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\sectionentry {3}{Quest\IeC {\~a}o 3}{2}{Quest\IeC {\~a}o 3}{0}}
+\headcommand {\beamer@sectionpages {2}{1}}
+\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\sectionentry {4}{Quest\IeC {\~a}o 4}{2}{Quest\IeC {\~a}o 4}{0}}
+\headcommand {\beamer@sectionpages {2}{1}}
+\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\sectionentry {5}{Quest\IeC {\~a}o 5}{2}{Quest\IeC {\~a}o 5}{0}}
+\headcommand {\beamer@sectionpages {2}{1}}
+\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\slideentry {5}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {6}{0}{3}{3/3}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {6}{0}{4}{4/4}{}{0}}
+\headcommand {\slideentry {5}{0}{3}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\sectionentry {7}{Quest\IeC {\~a}o 7}{5}{Quest\IeC {\~a}o 7}{0}}
-\headcommand {\beamer@sectionpages {1}{4}}
-\headcommand {\beamer@subsectionpages {1}{4}}
-\headcommand {\sectionentry {8}{Quest\IeC {\~a}o 8}{5}{Quest\IeC {\~a}o 8}{0}}
-\headcommand {\beamer@sectionpages {5}{4}}
-\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\slideentry {8}{0}{1}{5/5}{}{0}}
+\headcommand {\slideentry {5}{0}{4}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {8}{0}{2}{6/6}{}{0}}
+\headcommand {\slideentry {5}{0}{5}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@partpages {1}{6}}
-\headcommand {\beamer@subsectionpages {7}{6}}
-\headcommand {\beamer@sectionpages {7}{6}}
-\headcommand {\beamer@documentpages {6}}
-\headcommand {\def \inserttotalframenumber {6}}
+\headcommand {\slideentry {5}{0}{6}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\sectionentry {6}{Quest\IeC {\~a}o 6}{8}{Quest\IeC {\~a}o 6}{0}}
+\headcommand {\beamer@sectionpages {2}{7}}
+\headcommand {\beamer@subsectionpages {2}{7}}
+\headcommand {\slideentry {6}{0}{1}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {6}{0}{2}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {6}{0}{3}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {6}{0}{4}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\sectionentry {7}{Quest\IeC {\~a}o 7}{12}{Quest\IeC {\~a}o 7}{0}}
+\headcommand {\beamer@sectionpages {8}{11}}
+\headcommand {\beamer@subsectionpages {8}{11}}
+\headcommand {\slideentry {7}{0}{1}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {7}{0}{2}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\sectionentry {8}{Quest\IeC {\~a}o 8}{14}{Quest\IeC {\~a}o 8}{0}}
+\headcommand {\beamer@sectionpages {12}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\slideentry {8}{0}{1}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {8}{0}{2}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@partpages {1}{15}}
+\headcommand {\beamer@subsectionpages {16}{15}}
+\headcommand {\beamer@sectionpages {16}{15}}
+\headcommand {\beamer@documentpages {15}}
+\headcommand {\def \inserttotalframenumber {15}}

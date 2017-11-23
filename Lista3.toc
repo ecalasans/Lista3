@@ -1,9 +1,9 @@
 \select@language {brazilian}
-\beamer@sectionintoc {1}{Quest\IeC {\~a}o 1}{1}{0}{1}
-\beamer@sectionintoc {2}{Quest\IeC {\~a}o 2}{1}{0}{2}
-\beamer@sectionintoc {3}{Quest\IeC {\~a}o 3}{1}{0}{3}
-\beamer@sectionintoc {4}{Quest\IeC {\~a}o 4}{1}{0}{4}
-\beamer@sectionintoc {5}{Quest\IeC {\~a}o 5}{1}{0}{5}
-\beamer@sectionintoc {6}{Quest\IeC {\~a}o 6}{1}{0}{6}
-\beamer@sectionintoc {7}{Quest\IeC {\~a}o 7}{5}{0}{7}
-\beamer@sectionintoc {8}{Quest\IeC {\~a}o 8}{5}{0}{8}
+\beamer@sectionintoc {1}{Quest\IeC {\~a}o 1}{2}{0}{1}
+\beamer@sectionintoc {2}{Quest\IeC {\~a}o 2}{2}{0}{2}
+\beamer@sectionintoc {3}{Quest\IeC {\~a}o 3}{2}{0}{3}
+\beamer@sectionintoc {4}{Quest\IeC {\~a}o 4}{2}{0}{4}
+\beamer@sectionintoc {5}{Quest\IeC {\~a}o 5}{2}{0}{5}
+\beamer@sectionintoc {6}{Quest\IeC {\~a}o 6}{8}{0}{6}
+\beamer@sectionintoc {7}{Quest\IeC {\~a}o 7}{12}{0}{7}
+\beamer@sectionintoc {8}{Quest\IeC {\~a}o 8}{14}{0}{8}

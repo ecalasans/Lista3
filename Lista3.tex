@@ -56,16 +56,67 @@
 \usepackage[]{graphicx}
 \usepackage[]{color}
 \usepackage{pgfplots}
+\usepackage{systeme}
 \usetheme{Berkeley}
 
 \pgfplotsset{compat=1.5}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
+	\title{Lista 2}
+	\subtitle{Tópicos Especiais em Engenharia de Computação}
+	\author{Eric Calasans de Barros \and  Fagner Freire de Oliveira}
+	
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
 	\section{Questão 1}
 	\section{Questão 2}
 	\section{Questão 3}
 	\section{Questão 4}
 	\section{Questão 5}
+		\begin{frame}{Questão 5}
+			a)  Seja $\hat{y}(x) = a_{1}x + a_{0}$.  Os coeficientes são dados por:
+			$$a_{1} = \frac{n\sum (xy) - \sum x \sum y}{n\sum x^{2} - (\sum x)^2}$$
+			$$a_{0} = \bar{y} - a_{1}\bar{x}$$
+			Para n = 13 e com os dados da tabela temos:
+			$$\sum x = 260 \hspace{1cm} \sum xy = 3580$$
+			$$\sum y = 214 \hspace{1cm} \sum x^{2} = 6808$$
+			$$\bar{y} = 16.46 \hspace{1cm} \bar{x} = 20$$
+		\end{frame}
+		\begin{frame}{Questão 5}
+			$$a_{1} = \frac{13\times3380 - 260\times214}{13\times6808 - 260^{2}} = -0.56$$
+			$$a_{0} = 16.46 - (-0.56\times20) = 27.66$$
+			$$\sigma^{2} = 63.48 \hspace{1cm} \sigma = 7.98$$
+		\end{frame}
+		\begin{frame}{Questão 5}
+			c)  Para um modelo $\hat{y} = a_{0} + a_{1}x_{1} + a_{2}x_{2}$, temos as seguintes equações:
+			\begin{align*}
+				na_{0} + a_{1}\sum_{i=1}^{n} x_{i1} + a_{2}\sum_{i=1}^{n} x_{i2} &= \sum_{i=1}^{n} y_{i1}\\
+				a_{0}\sum_{i=1}^{n} x_{i1} + a_{1}\sum_{i=1}^{n} x_{i1}^{2} + a_{2}\sum_{i=1}^{n} x_{i1} x_{i2} &= \sum_{i=1}^{n} x_{i1} y_{i1}\\
+				a_{0}\sum_{i=1}^{n} x_{i2} + a_{1}\sum_{i=1}^{n} x_{i1} x_{i2} + a_{2}\sum_{i=1}^{n} x_{i2}^{i2} &= \sum_{i=1}^{n} x_{i2} y_{i}   
+			\end{align*}
+		\end{frame}
+		\begin{frame}{Questão 5}
+			Calculando n e os somatórios:
+			$$n = 8\hspace{1cm} \sum y_{i} = 227.7 \hspace{1cm} \sum x_{i1} = 20$$
+			$$\sum x_{i2} = 12 \hspace{1cm} \sum x_{i1}^2 = 60 \hspace{1cm} \sum x_{i1} x_{i2} = 30$$
+			$$\sum x_{i1} y_{i} = 661 \hspace{1cm} \sum x_{i2} y_{i} = 331.2$$
+		\end{frame}
+		\begin{frame}{Questão 5}
+			\[
+				\systeme*{8a_{0} + 20a_{1} + 12a_{2} = 227.7,20a_{0} + 60a_{1} + 30a_{2} = 661,12a_{0} + 30a_{1} + 20a_{2} = 331.2}
+			\]
+			Resolvendo o sistema acima temos: $a_{0} = 13.29$, $a_{1} = 9.18$ e $a_{2} = -5.18$.
+			Asssim:
+			\[ \hat{y} = 13.29 + 9.18x_{1} - 5.18x_{2}\]
+		\end{frame}
+		\begin{frame}{Questão 5}
+			Para $x_{1}$:  $\bar{x}_{1} = 2.5$, $\sigma^{2} = 1.25$ e $\sigma = 1.118$.\\
+			Para $x_{2}$:  $\bar{x}_{2} = 1.5$, $\sigma^{2} = 0.25$ e $\sigma = 0.5$.\\
+			Para $y$:  $\bar{y} = 28.46$, $\sigma^{2} = 112.39$ e $\sigma = 10.6$.
+			$$S_{t} = 899.14 \hspace{2cm} S_{r} = 3.78$$
+			$$T = \sqrt{\frac{S_{t} - S{r}}{S_{t}}} = \sqrt{\frac{899.14 - 3.78}{3.78}} = 15.39$$			
+		\end{frame}
 	\section{Questão 6}
 		\begin{frame}{Questão 6}
 			a)  Sejam $\overline{\overline X} = 34.32$ e $\overline{\overline R} = 5.65$.\\
@@ -119,9 +170,25 @@
 			b)  $RCP = \frac{LSE - LIE}{6\delta}$, onde:$$\delta = \frac{r}{d_{2}(tabelado)} = \frac{5}{2\times32.6} = 0.000215$$\\
 			$RCP = \frac{0.5045 - 0.5025}{6(0.000215)} = 1.55$\\
 			
-			$P_{1} = \big(\frac{1}{C_{o}}\big)\times100 = 64.51$
+			c)  $P_{c} = \big(\frac{1}{C_{p}}\big)\times100 = 64.51$
 		\end{frame}
 	\section{Questão 7}
+		\begin{frame}{Questão 7}
+			Sejam:
+			$$\bar{c} = \frac{c_{1} + c_{2} + \dots + c_{k}}{k}$$
+			$$LSC = \bar{c} + 3\sqrt{\bar{c}} \hspace{1cm} LC = \bar{c} \hspace{1cm} LIC = \bar{c} - 3\sqrt{\bar{c}}$$
+			Para $\bar{c} = 9.7$:
+			$$LSC = 9.7 + 3\sqrt{9.7} = 19.04 \hspace{1cm} LIC = 9.7 - 3\sqrt{9.7} = 0.35$$
+			A 4ª e a 24ª amostras estão fora dos limites de controle.  Revendo os limites e retirando essas amostras temos:
+		\end{frame}
+		\begin{frame}{Questão 7}
+			\begin{align*}
+				&\bar{c} = 9.4\\
+				&LSC = 9.4 + 3\sqrt{9.4} = 18.6\\
+				&LIC = 9.4 - 3\sqrt{9.4} = 0.2 
+			\end{align*}
+			Retirando as observações 4 e 24 os dados encontram-se agora dentro dos limites de controle.
+		\end{frame}
 	\section{Questão 8}
 		\begin{frame}{Questão 8}
 			a)  Sejam $TMF = 0.002$, $t = 1000h$ e $r(t) = \exp(-\lambda t)$.
